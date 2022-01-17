@@ -114,3 +114,95 @@
     }
   }
 }
+// About page styling
+
+.about{
+  display: flex;
+  border: 1px solid #fff;
+  justify-content: space-between;
+  height: 100vh;
+  margin-top: 90px;
+  .right_side_wrapper{
+    width: 50%;
+    border: 1px solid #F2994A;
+    position: absolute;
+    right: 0;
+  }
+  .left_header_wrapper{
+    width: 45%;
+    h1{
+      font-family: "Inter";
+      font-size: 44px;
+      color: #99EFD0;
+      margin-top: 15px;
+    }
+    p{
+      color: #8476AA;
+      font-family: sans-serif;
+      font-size: 18px;
+      width: 90%;
+      margin-top: 18px;
+    }
+    .buttons_wrapper{
+      margin-top: 50px;
+      width: 60%;
+      display: flex;
+      .learnBtn{
+        width: 150px;
+        margin-right: 20px;
+        height: 45px;
+        outline: none;
+        border: none;
+        font-family: "Rubik";
+      }
+      .btn_learn{
+        color: #fff;
+        background-color: #F2994A;
+        border-radius: 3px;
+        transition: all 0.3s ease;
+        cursor: pointer;
+        &:hover{
+          border:1px solid #F2994A;
+          background-color: transparent;
+          color: #F2994A;
+        }
+      }
+      .btn_demo{
+          border:1px solid #F2994A;
+          background-color: transparent;
+          color: #F2994A;
+          border-radius: 3px;
+          transition: all 0.3s ease;
+          cursor: pointer;
+          &:hover{
+            color: #fff;
+            background-color: #F2994A;
+            
+          }
+      }
+    }
+    .vidio{
+      display: flex;
+      margin-top: 70px;
+      video{
+        background: #361C5D;
+        border-radius: 3px;
+        margin-right: 20px;
+      }
+      .video-description{
+        display: flex;
+        flex-direction: column;
+        p{
+          margin-top: 0;
+          font-size: 16px;
+        }
+        span{
+          color: #6D6D78;
+          font-size: 14px;
+          font-family: 'Rubik';
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+}
