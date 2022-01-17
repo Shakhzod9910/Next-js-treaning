@@ -8,11 +8,11 @@ function About(){
                 <h1>Many reasons to get up and start to get back in the business</h1>
                 <p>The harder you work for something, the greater you’ll feel when you achieve it.</p>
                 <div className="buttons_wrapper">
-                    <button>LEARN MORE</button>
-                    <button>DEMO</button>
+                    <button className="learnBtn btn_learn">LEARN MORE</button>
+                    <button className="learnBtn btn_demo">DEMO</button>
                 </div>
                 <div className="vidio">
-                    <video autoPlay style={{ width: '500px', height: '500px' }}>
+                    <video autoPlay style={{ width: '140px', height: '78px' }}>
                          <source src="../../src/Assets/img/Talant.MP4" />
                      </video>
                     <div className="video-description">
